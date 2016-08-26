@@ -12,12 +12,12 @@ $_['language_autoload']    = array('en-gb');
 
 // Database
 $_['db_autostart']         = false;
-$_['db_type']              = 'mysqli'; // mpdo, mssql, mysql, mysqli or postgre
-$_['db_hostname']          = 'localhost';
-$_['db_username']          = 'root';
-$_['db_password']          = '';
-$_['db_database']          = '';
-$_['db_port']              = 3306;
+$_['db_type']              = 'postgre'; // mpdo, mssql, mysql, mysqli or postgre
+$_['db_hostname']          = 'ec2-54-235-246-220.compute-1.amazonaws.com';
+$_['db_username']          = 'hjdwomoegvsuuk';
+$_['db_password']          = 'jjoVyNmio8SktG0GqFKebv_xdN';
+$_['db_database']          = 'dakpdgh828jlp5';
+$_['db_port']              = 5432;
 
 // Mail
 $_['mail_protocol']        = 'mail'; // mail or smtp

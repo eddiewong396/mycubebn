@@ -5,12 +5,12 @@ $_['site_ssl']          = HTTPS_SERVER;
 
 // Database
 $_['db_autostart']      = true;
-$_['db_type']           = DB_DRIVER; // mpdo, mssql, mysql, mysqli or postgre
-$_['db_hostname']       = DB_HOSTNAME;
-$_['db_username']       = DB_USERNAME;
-$_['db_password']       = DB_PASSWORD;
-$_['db_database']       = DB_DATABASE;
-$_['db_port']           = DB_PORT;
+$_['db_type']              = 'postgre'; // mpdo, mssql, mysql, mysqli or postgre
+$_['db_hostname']          = 'ec2-54-235-246-220.compute-1.amazonaws.com';
+$_['db_username']          = 'hjdwomoegvsuuk';
+$_['db_password']          = 'jjoVyNmio8SktG0GqFKebv_xdN';
+$_['db_database']          = 'dakpdgh828jlp5';
+$_['db_port']              = 5432;
 
 // Session
 $_['session_autostart'] = true;
