@@ -2,6 +2,7 @@
     "require": {
         "php": "~5.5.12",
         "ext-mysqli": "*",
+        "ext-mysqlnd": "*",
         "ext-gd": "*"
     }
 }
